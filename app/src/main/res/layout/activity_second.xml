@@ -5,31 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="180dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:text="Welcome to main activity" />
-
-    <Button
-        android:id="@+id/firstActivityBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Go"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="266dp" />
+    tools:context=".SecondActivity">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Click the above button to go to second activity." />
+        android:text="Welcome to second activity"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <Button
+        android:id="@+id/mainActivityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Previous" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Click the above button to go Main activity" />
+
 </LinearLayout>
